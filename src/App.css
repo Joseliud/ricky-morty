@@ -1,0 +1,29 @@
+.app{
+   background-image: url('/public/fondo.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   min-height: 100vh;
+    color: white;
+}
+
+.container_resident {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.app_title{
+    text-align: center;
+    background-image: url('/public/title1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 2.5em;
+    color: rgb(113, 245, 6);
+    font-size: 40px;
+    font-style: inherit; 
+    
+    
+}
